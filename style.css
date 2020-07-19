@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000000;
+}
+
+@media screen and (min-width: 1347px) {
+    #bg-img {
+        background-image: url(images/view-of-elephant-in-water-247431.png);
+        width: 1347px;
+        height: 768px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    #navbar-logo a {
+        background-image: url(images/nvm.png);
+        width: 76px;
+        height: 25px;
+        position: absolute;
+        left: 633px;
+        top: 14px;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-logo a:hover {
+        opacity: 100%;
+    }
+
+    #navbar-hamburger a {
+        background-image: url(images/hamburger-4.png);
+        width: 26px;
+        height: 9px;
+        position: absolute;
+        left: 1288px;
+        top: 24px;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #navbar-hamburger a:hover {
+        opacity: 100%;
+    }
+
+    #text-1 {
+        font-family: 'Montserrat SemiBold';
+        font-size: 53px;
+        position: absolute;
+        left: 165px;
+        top: 127px;
+        color: #ffffff;
+    }
+
+    #text-2 {
+        font-family: 'Montserrat SemiBold';
+        font-size: 53px;
+        position: absolute;
+        left: 113px;
+        top: 191px;
+        color: #ffffff;
+    }
+
+    #text-3 {
+        font-family: 'Montserrat SemiBold';
+        font-size: 18px;
+        position: absolute;
+        left: 93px;
+        top: 271px;
+        opacity: 46%;
+        color: #ffffff;
+    }
+
+    #dot-1 {
+        cursor: pointer;
+        width: 12px;
+        height: 8px;
+        border-radius: 15px;
+        position: absolute;
+        left: 221px;
+        top: 304px;
+        background-color: #625DFF;
+        opacity: 90%;
+        transition: 0.7s;
+    }
+
+    #dot-1:hover {
+        opacity: 100%;
+    }
+
+    #dot-2 {
+        cursor: pointer;
+        width: 12px;
+        height: 8px;
+        border-radius: 15px;
+        position: absolute;
+        left: 239px;
+        top: 304px;
+        background-color: #ffffff;
+        opacity: 22%;
+        transition: 0.7s;
+    }
+
+    #dot-2:hover {
+        opacity: 33%;
+    }
+
+    #dot-3 {
+        cursor: pointer;
+        width: 12px;
+        height: 8px;
+        border-radius: 15px;
+        position: absolute;
+        left: 257px;
+        top: 304px;
+        background-color: #ffffff;
+        opacity: 22%;
+        transition: 0.7s;
+    }
+
+    #dot-3:hover {
+        opacity: 33%;
+    }
+
+    #dot-4 {
+        cursor: pointer;
+        width: 12px;
+        height: 8px;
+        border-radius: 15px;
+        position: absolute;
+        left: 275px;
+        top: 304px;
+        background-color: #ffffff;
+        opacity: 22%;
+        transition: 0.7s;
+    }
+
+    #dot-4:hover {
+        opacity: 33%;
+    }
+
+    #btn-1 a button {
+        width: 292px;
+        height: 55px;
+        opacity: 10%;
+        position: absolute;
+        left: 102px;
+        top: 331px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.7s;
+    }
+
+    #btn-1 a button:hover {
+        opacity: 20%;
+    }
+
+    #btn-1-text {
+        text-decoration: none;
+        font-family: 'Montserrat SemiBold';
+        font-size: 15px;
+        position: absolute;
+        left: 224px;
+        top: 349px;
+        color: #ffffff;
+    }
+
+    #terms-and-conditons-1 {
+        font-family: 'Montserrat SemiBold';
+        font-size: 14px;
+        position: absolute;
+        left: 155px;
+        top: 406px;
+        color: #ffffff;
+        opacity: 26%;
+    }
+
+    #terms-and-conditons-2 a {
+        font-family: 'Montserrat SemiBold';
+        font-size: 12px;
+        position: absolute;
+        left: 182px;
+        top: 424px;
+    }
+
+    #terms-and-conditons-2 a:active {
+        color: #625DFF;
+    }
+}
